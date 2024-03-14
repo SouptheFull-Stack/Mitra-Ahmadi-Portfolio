@@ -1,7 +1,7 @@
 This website will give insight to my skills and capabilities as a web developer for potential employers to review. My adaptation to usability and accessibility for users by incorporating semantics, responsive designs, and flex layouts, showcases the variety of knowledge I have. 
 
 Deployment
-
+https://soupthefull-stack.github.io/Mitra-Ahmadi-Portfolio/
 
 License
 MIT License
