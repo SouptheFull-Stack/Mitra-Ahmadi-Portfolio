@@ -27,9 +27,6 @@ header h1 {
     width: 450px;
 }
 
-ul {
-    
-}
 nav ul {
     display: flex;
     gap: 30px;
@@ -86,11 +83,12 @@ div img {
     display: flex;
     flex: 3;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
     height: 500px;
     background-color: #b3cde4;
     color: #17202b;
-    justify-content: flex-end;
 }
 
 .content img {
@@ -115,6 +113,10 @@ h2 {
     text-align: right;
 }
 
+h4 {
+    text-align: center;
+}
+
 p , .projects {
     flex: 1;
     padding: 20px;
@@ -123,7 +125,7 @@ p , .projects {
 }
 
 #HTML-img {
-    height: 80%;
+    height: 100%;
     flex: 1 2;
     /* padding: 10px; */
 } 
@@ -132,4 +134,10 @@ p , .projects {
     flex: 1;
 }
 
+@media screen and (max-width: 1300px) {
+    header {
+    padding-bottom: 50px;
+      flex-direction: column;
+    }
+  }
   
